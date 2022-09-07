@@ -23,8 +23,8 @@ $driveMappingConfig+= [PSCUSTOMOBJECT]@{
 
 $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
-    #UNCPath= "\\VM-ROOT\I_DRIVE"
-    UNCPath= "\\CI.conservation.org\I_Drive"
+    UNCPath= "\\VM-ROOT\I_DRIVE"
+    #UNCPath= "\\CI.conservation.org\I_Drive"
     Description="Department"
 }
 
