@@ -16,19 +16,21 @@ $dnsDomainName= "CI.conservation.org"
 
 $driveMappingConfig+= [PSCUSTOMOBJECT]@{
     DriveLetter = "P"
-    UNCPath= "\\CI-FILECL\PDRIVE"
+    #UNCPath= "\\CI-FILECL\PDRIVE"
+    UNCPath= "\\CI-FILECL.CI.conservation.org\PDRIVE"
     Description="Public"
 }
 
 $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
     DriveLetter = "I"
-    UNCPath= "\\VM-ROOT\I_DRIVE"
+    #UNCPath= "\\VM-ROOT\I_DRIVE"
+    UNCPath= "\\CI.conservation.org\I_Drive"
     Description="Department"
 }
 
 $driveMappingConfig+=  [PSCUSTOMOBJECT]@{
     DriveLetter = "S"
-    UNCPath= "\\CI-FILECL\S"
+    UNCPath= "\\CI-FILECL\usersoft"
     Description="Software"
 }
 
